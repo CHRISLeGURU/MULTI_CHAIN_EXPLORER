@@ -37,11 +37,10 @@ The app will fetch the balance and display it in native token and USD value.
 Environment Variables
 Create a .env.local file in the root folder and add your API keys:
 
-ini
-Copier
-Modifier
+
 VITE_BLOCKFROST_API_KEY=your_blockfrost_api_key
 VITE_HELIUS_API_KEY=your_helius_api_key
 VITE_ETHERSCAN_API_KEY=your_etherscan_api_key
-Contributing
+
+##Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
