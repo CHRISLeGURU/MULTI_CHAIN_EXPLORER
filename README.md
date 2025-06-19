@@ -25,8 +25,10 @@ A simple and developer-friendly web app that lets you check the balance of any p
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/multi-chain-balance-checker.git
+md multi-chain-balance-checker
 cd multi-chain-balance-checker
+git clone https://github.com/CHRISLeGURU/...
+
 npm install
 npm run dev
 Usage
