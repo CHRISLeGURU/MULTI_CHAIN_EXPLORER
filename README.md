@@ -4,7 +4,7 @@ A simple and developer-friendly web app that lets you check the balance of any p
 
 ## Features
 
-- Supports 6 major blockchains: **Bitcoin, Ethereum, Cardano, Polkadot, Sui, and Solana**
+- Supports major blockchains: **Bitcoin, Ethereum, Cardano, Polkadot, Sui, and Solana**
 - Real-time balance fetching using public blockchain explorers and RPC APIs
 - Automatic **USD conversion** with **CoinGecko**
 - Clean and lightweight **frontend-only architecture** (no backend or database required)
@@ -19,6 +19,7 @@ A simple and developer-friendly web app that lets you check the balance of any p
  
   - Sui: JSON-RPC
   - Solana: Helius RPC or Solscan API
+  - Polygon/BNB CHAIN: Polyscan, BSCScan
 - **Frontend:** React + Vite + Tailwind CSS and framer motion
 - **Pricing API:** CoinGecko
 
@@ -43,6 +44,8 @@ Create a .env.local file in the root folder and add your API keys:
 VITE_BLOCKFROST_API_KEY=your_blockfrost_api_key
 VITE_HELIUS_API_KEY=your_helius_api_key
 VITE_ETHERSCAN_API_KEY=your_etherscan_api_key
+VITE_BSCSCAN_API_KEY=.......
+VITE_POLYGONSCAN_API_KEY=........
 
 ##Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
